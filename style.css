@@ -51,6 +51,7 @@
     z-index: -1;
 }
 .slider-parent{
+    width: 50% !important;
 }
 .slider-section-content{
     /* position: relative;
@@ -101,6 +102,9 @@
 @media (min-width: 576px) { 
     .slider-section{
         /* height: 100vh; */
+    }
+    .slider-parent{
+        width: 100% ;
     }
  }
 
