@@ -3,14 +3,14 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
-.section-padding{
-    padding: 100px 100px;
-    
-}
+
 .navbar .navbar-brand {
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+.section-bg{
+    background-color: #f7f9ff;
 }
 .navbar .navbar-brand span {
     font-size: 26px;
@@ -93,6 +93,49 @@
     padding: 19px 24px;
     letter-spacing: 1px;
 }
+.single-timer-wrapper{
+
+}
+.single-timer-wrapper h3{
+    font-size: 57px;
+    font-weight: 500;
+
+}
+.single-timer-wrapper p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.about .about-text h3{
+    font-size: 44px;
+    font-weight: 500;
+
+}
+.about .about-text p{
+    font-size: 20px;
+    padding: 24px 0px 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* // X-Small devices (portrait phones, less than 576px)
