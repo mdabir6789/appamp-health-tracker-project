@@ -170,10 +170,11 @@
     width: 100%;
     background-color: #5c70c8a6;
     visibility: hidden;
-    /* opacity: 0; */
+    /* transition: 0.4s ease-in-out; */
 }
 .portfolio-item:hover a::after{
     visibility: visible;
+    /* transition: .4s; */
 }
 
 
