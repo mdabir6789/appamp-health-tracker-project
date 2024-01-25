@@ -155,10 +155,26 @@
     line-height: ;
 }
 
+/* .portfolio-item */
+.portfolio-item a{
+    position: relative;
+    display: block;
 
-
-
-
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #5c70c8a6;
+    visibility: hidden;
+    /* opacity: 0; */
+}
+.portfolio-item:hover a::after{
+    visibility: visible;
+}
 
 
 
