@@ -186,6 +186,10 @@
 .pricing-item{
     box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
 }
+.pricing-item:hover .pricing-botton a{
+    background-color: #6278df;
+    color: white;
+}
 .pricing-item-header {
 
 }
@@ -220,6 +224,7 @@
 .pricing-botton{
     box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
 }
+
 .pricing-botton a{
     color: #6278df;
     /* box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2); */
