@@ -230,10 +230,41 @@
     /* box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2); */
     letter-spacing: 1px;
 }
-
-
-
-
+.testimonial-section-subtitle{
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+}
+.testimonial-section-title{
+    font-size: 44px;
+}
+.testimonial-section i{
+    font-size: 99px;
+        color: #cccccc;
+    opacity: 0.3;
+}
+.testimonial-section-text{
+    font-size: 20px;
+    font-weight: 300;
+    color: #767676;
+}
+.author-body{
+    position: relative;
+    top: 13px;
+}
+.testimonial-section .author img{
+    width: 85px;
+    margin-right: 15px;
+}
+.testimonial-section .author .author-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+.testimonial-section .author .author-designation{
+    font-size: 16px;
+    color: #767676;
+}
 
 
 
