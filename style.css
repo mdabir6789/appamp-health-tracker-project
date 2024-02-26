@@ -265,10 +265,52 @@
     font-size: 16px;
     color: #767676;
 }
+.team-section-title{
+    font-size: 44px;
+    color: #000000;
+}
+.team-section .team-history{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+}
 
+/* Team Members  */
+.team-members{
+    padding-top: 120px;
+}
+.team-member-item .card{
+   padding: 20px 10px 20px 10px;
+   box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+  
+}
 
+.team-member-item .card-title{
+    font-size: 20px;
+    font-weight: 500;
 
+}
+.team-member-item .card-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+.team-member-item .card-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #767676;
 
+}
+.team-member-item .card-btn{
+    color: #465052;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.team-member-item .card-btn:active{
+    /* border: none; */
+}
+.team-member-item .card-btn:hover{
+    color: #ffffff;
+    background-color: #465052;
+}
 
 
 
@@ -285,12 +327,26 @@
     .slider-parent{
         width: 100% ;
     }
+    .team-member-item img{
+        width: 50%;
+        top: 0px;
+        height: auto;
+        margin-top: -10px;
+    }
+    .team-member-item .card-body{
+        /* padding-top: 230px; */
+    }
 
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .team-member-item img{
+        width: 148px;
+    }
+    .team-member-item .card-body{
+        padding-top: 20px;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -299,6 +355,18 @@
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+    .team-member-item .card-body{
+        padding-top: 70px;
+    }
+    .team-member-item img{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: -75px;
+        left: 15px;
+        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+    }
 
  }
 
