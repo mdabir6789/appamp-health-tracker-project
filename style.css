@@ -12,6 +12,9 @@
 .section-bg{
     background-color: #f7f9ff;
 }
+.shadow-primary{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
 .navbar .navbar-brand span {
     font-size: 26px;
     margin-right: 10px;
@@ -281,7 +284,7 @@
 }
 .team-member-item .card{
    padding: 20px 10px 20px 10px;
-   box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+
   
 }
 
@@ -298,11 +301,9 @@
     font-size: 16px;
     font-weight: 300;
     color: #767676;
-
 }
 .team-member-item .card-btn{
     color: #465052;
-    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
 }
 .team-member-item .card-btn:active{
     /* border: none; */
@@ -311,8 +312,42 @@
     color: #ffffff;
     background-color: #465052;
 }
-
-
+/* Contact section  */
+.contact-section-subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    color: #767676;
+}
+.contact-section-title{
+    font-size: 44px;
+}
+.contact-form-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.contact-form input{
+    padding: 24px;
+}
+.contact-form input::placeholder{
+    color: #767676ab;
+}
+.contact-form textarea{
+    padding: 24px;
+}
+.contact-form textarea::placeholder{
+    color: #767676ab;
+}
+.contact-form span{
+    padding: 15px 30px;
+    color: white;
+    background-color: #6278df;
+    border-radius: 6px;
+}
+.contact-form span:hover{
+    background-color: #fff;
+    color: #6278df;
+    border: 2px solid #6278df;
+}
 
 
 
@@ -360,12 +395,12 @@
         padding-top: 70px;
     }
     .team-member-item img{
-        width: 50%;
+        width: 55%;
         height: auto;
         position: absolute;
         top: -75px;
         left: 15px;
-        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+        
     }
 
  }
