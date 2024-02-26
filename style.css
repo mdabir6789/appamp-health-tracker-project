@@ -284,8 +284,6 @@
 }
 .team-member-item .card{
    padding: 20px 10px 20px 10px;
-
-  
 }
 
 .team-member-item .card-title{
@@ -349,6 +347,45 @@
     border: 2px solid #6278df;
 }
 
+/* apps section  */
+.application-btn .apple-btn span{
+    color: #5ba533;
+    border: 2px solid #5ba533;
+    padding: 15px 30px;
+}
+.application-btn .apple-btn span:hover{
+        color: #ffffff !important;
+        background-color: #5ba533;
+        border-color: #5ba533;
+        box-shadow: 3px 3px 27px -3px #5ba533;
+}
+/* .apple-btn:hover .apple-btn span{
+    color: #ffffff !important;
+} */
+.application-btn .android-btn span{
+    color: #ffffff !important;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+    padding: 15px 30px;
+}
+.application-btn .android-btn span:hover{
+    box-shadow: none;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.mobile-apps-poster{
+    width: 50%;
+}
+
+.footer span{
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
 
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -371,6 +408,9 @@
     .team-member-item .card-body{
         /* padding-top: 230px; */
     }
+    .mobile-apps-poster{
+        width: 100%;
+    }
 
  }
 
@@ -381,6 +421,9 @@
     }
     .team-member-item .card-body{
         padding-top: 20px;
+    }
+    .mobile-apps-poster{
+        width: 100%;
     }
  }
 
@@ -401,6 +444,9 @@
         top: -75px;
         left: 15px;
         
+    }
+    .mobile-apps-poster{
+        width: 50%;
     }
 
  }
