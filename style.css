@@ -290,6 +290,10 @@
 .team-member-item .card-btn {
   color: #465052;
 }
+.team-members img {
+  width: 50%;
+  height: auto;
+}
 .team-member-item .card-btn:active {
   /* border: none; */
 }
